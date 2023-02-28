@@ -1,0 +1,63 @@
+body{
+    margin: 0 auto;
+    background-image: url(image/back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#app{
+    margin: 0 auto;
+    margin-top: 85px;
+    height: 440px;
+    width: 320px;
+    border: 1px solid rgb(0, 170, 248);
+    border-radius: 5px;
+}
+
+#app form{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#app input[type=textfield]{
+   height: 25%;
+   width: 90%;
+   cursor: default;
+   font-family: 'Roboto', sans-serif;
+   background-color: black;
+   color: white;
+   padding: 15px;
+   text-align: center;
+   font-size: 50px;
+   border: 0;
+   outline: none;
+}
+
+#app input[type=button], input[type=reset]{
+    width: 22%;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    padding: 18px;
+    margin: 3px;
+    border: 0;
+    background-color: rgba(43, 41, 41, 0.829);
+    border-radius: 100%;
+}
+
+#app input[type=reset]{
+    color: rgba(212, 21, 14, 0.986);
+}
+
+#app .green{
+    color: rgb(26, 240, 26) !important;
+}
+
+
+
+
+
